@@ -7,26 +7,76 @@
         background-color: #111;
         color: white;
         font-family: Arial;
+        margin: 0;
         text-align: center;
-        padding-top: 100px;
+      }
+
+      header {
+        padding: 60px 20px;
       }
 
       h1 {
-        font-size: 40px;
+        font-size: 42px;
+        margin-bottom: 10px;
       }
 
       p {
-        font-size: 20px;
+        font-size: 18px;
         color: #ccc;
       }
+
+      .section {
+        padding: 40px 20px;
+      }
+
+      .projects {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 500px;
+        margin: auto;
+      }
+
+      .project {
+        border: 1px solid #333;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      a {
+        color: 4da6ff;
+        text-decoration: none;
+      }
+      
     </style>
   </head>
   <body>
-    <h1>Hello World</h1>
-    <p>This is my first website. 🐸</p>
+    <h1>The Wolves Den</h1>
+    <p>Project Portfolio</p>
+    <h2><p>Web Development & Design</p></h2>
 
-    <a href="#" style="color: white; text-decoration: none; border: 1px solid white; padding: 10px 20px; display: inline-block; margin-top: 20px;">
-      My Fitness Journey
-    </a>
+    <div class="section">
+      <h3>About Me</h3>
+      <p>I'm a graphic designer based in southern New Hampshire 
+        with a background working in education at the high school 
+        and college level and currently transitioning back into industry. 
+        I'm fluent in the adobe creative suite, and enjoy utilizing
+        mixed media approaches such as expirimenting with hand based 
+        lettering, typography, illustration and photography.
+      I am currently learning to code with html, css and java and hope to venture further into 
+      the world of UI and UX design. </p>
+
+      <div class="section">
+        <h3>Projects</h3>
+        <div class="projects">
+
+          <div class="project">
+            <h4> My first Website</h4>
+            <p>This is my first HTML website built using GitHub Pages.</p>
+            <a href="#">View Project</a>
+          </div>
+        </div>
+      </div>
+      
   </body>
 </html>
